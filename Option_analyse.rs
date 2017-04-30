@@ -1040,6 +1040,7 @@ unsafe impl<'a, A> TrustedLen for IterMut<'a, A> {}
 #[derive(Clone, Debug)]
 #[stable(feature = "rust1", since = "1.0.0")]
 pub struct IntoIter<A> {
+    //这里明白了，为什么时候rust时类型系统了，所有权的转移，让一个对象变成另一个类型的对象。
     inner: Item<A>,
 }
 
