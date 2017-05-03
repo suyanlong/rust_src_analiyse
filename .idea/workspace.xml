@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e08bfd08-4dfd-4e5d-9972-084a51ebb2a0" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Option_analyse.rs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mem.rs" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="e08bfd08-4dfd-4e5d-9972-084a51ebb2a0" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,8 +30,8 @@
       <file leaf-file-name="vec.rs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/libcollections/vec.rs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="1173" column="5" lean-forward="true" selection-start-line="1173" selection-start-column="5" selection-end-line="1173" selection-end-column="5" />
+            <state relative-caret-position="207">
+              <caret line="1169" column="11" lean-forward="true" selection-start-line="1169" selection-start-column="11" selection-end-line="1169" selection-end-column="11" />
               <folding>
                 <element signature="e#37899#37900#0" expanded="true" />
                 <element signature="e#37922#37923#0" expanded="true" />
@@ -659,15 +655,15 @@
       <updated>1493532115488</updated>
       <workItem from="1493532116985" duration="2091000" />
       <workItem from="1493688942037" duration="4812000" />
-      <workItem from="1493791490527" duration="581000" />
+      <workItem from="1493791490527" duration="1182000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7484000" />
+    <option name="totallyTimeSpent" value="8085000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-6" width="1366" height="723" extended-state="7" />
+    <frame x="0" y="-6" width="1366" height="723" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -808,8 +804,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/libcollections/vec.rs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="1173" column="5" lean-forward="true" selection-start-line="1173" selection-start-column="5" selection-end-line="1173" selection-end-column="5" />
+        <state relative-caret-position="207">
+          <caret line="1169" column="11" lean-forward="true" selection-start-line="1169" selection-start-column="11" selection-end-line="1169" selection-end-column="11" />
           <folding>
             <element signature="e#37899#37900#0" expanded="true" />
             <element signature="e#37922#37923#0" expanded="true" />
