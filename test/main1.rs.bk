@@ -23,8 +23,7 @@ fn main() {
     let i32_value: i32 = Default::default();
     println!("---{}---", i32_value);
 
-
-         let mut contian = VecDeque::new();
+    let mut contian = VecDeque::new();
     contian.push_back('a');
     contian.push_back('b');
     contian.push_back('c');
@@ -32,7 +31,7 @@ fn main() {
     assert_eq!('d', contian.pop_back().unwrap());
     // contian.buffer_read(1);error: method `buffer_read` is private
 
-    let flag = true;
+                let flag = true;
     // flag.hash();
 
     //有一些核心部件、struct\trict都是编译器内置里面的,或者说item代表什么意思。

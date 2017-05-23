@@ -5,7 +5,7 @@ fn main() {
     let pair = Arc::new((Mutex::new(vec_contain), Condvar::new()));
     let pair2 = pair.clone();
     thread::spawn(move || {
-        let &(ref lock, ref cvar) = &*pair2;
+        let &(ref lock, ref cvar) =&*pair2;
         let mut count = 0;
         while true {
             {
@@ -28,6 +28,9 @@ fn main() {
 
     // Wait for the thread to start up.
     let &(ref lock, ref cvar) = &*pair;
+
+
+
     
     // As long as the value inside the `Mutex` is false, we wait.
     while true {

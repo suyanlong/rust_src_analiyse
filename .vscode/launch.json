@@ -1,10 +1,41 @@
 {
     "version": "0.2.0",
     "configurations": [{
-        "name": "Debug",
-        "type": "gdb",
-        "request": "launch",
-        "target": "./bin/thread",
-        "cwd": "${workspaceRoot}"
-    }]
+            "type": "lldb",
+            "request": "launch",
+            "name": "Launch",
+            "program": "${workspaceRoot}/bin/main1",
+            "args": [],
+            "cwd": "${workspaceRoot}"
+        }
+        // {
+        //     "type": "lldb",
+        //     "request": "launch",
+        //     "name": "Launch",
+        //     "program": "${workspaceRoot}/bin/main1",
+        //     "args": [],
+        //     "sourceLanguages": [
+        //         "rust"
+        //     ],
+        //     "cwd": "${workspaceRoot}"
+        // }
+        // ,
+        // {
+
+
+        //     "type": "lldb-mi",
+        //     "request": "launch",
+        //     "name": "Launch Program",
+        //     "target": "./bin/main1",
+        //     "cwd": "${workspaceRoot}"
+        // }
+        // ,
+        // {
+        //     "name": "Debug",
+        //     "type": "gdb",
+        //     "request": "launch",
+        //     "target": "./bin/main1",
+        //     "cwd": "${workspaceRoot}"
+        // }
+    ]
 }
